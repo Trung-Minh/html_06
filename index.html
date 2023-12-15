@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thẻ</title>
+  </head>
+  <body>
+    <h1>Paragraph - p</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro molestiae
+      quibusdam dignissimos illum, excepturi optio eveniet qui ducimus
+      praesentium nostrum officia sequi in veritatis quaerat iure architecto
+      sint harum culpa.
+    </p>
+    <p>Loem ipsum dolor sit amet.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab dignissimos
+      laudantium recusandae ipsum ratione totam modi doloremque in? Vitae in
+      assumenda eos autem non voluptates dolorem, rem nesciunt maxime?
+      Accusantium sunt fugiat ullam voluptatibus. Voluptas nemo placeat
+      voluptates asperiores animi dolor neque quasi reiciendis, quo libero
+      aperiam repellendus voluptatem laborum vitae excepturi error. Expedita
+      inventore modi odio excepturi voluptates? Veniam vitae rerum unde ut,
+      commodi recusandae alias reiciendis quo! Beatae labore cum laudantium
+      corporis facere! Perspiciatis facilis a neque mollitia incidunt, maxime
+      qui quis molestiae aliquid vitae voluptatem ipsam.
+    </p>
+
+    <h1>Break - br</h1>
+    <p>
+      Lorem ipsum dolor sit amet.
+      <br />
+      Lorem ipsum dolor sit amet. <br />
+      Lorem ipsum dolor sit amet. <br />
+      Lorem ipsum dolor sit amet. <br />
+      Lorem ipsum dolor sit amet.
+    </p>
+
+    <h1>Horizontal Rule - hr</h1>
+    <hr />
+
+    <h1>Bold - Italic - Underline</h1>
+    <p>Họ tên: <b>Lê Minh Trung</b></p>
+    <p>Ngành: <i>Hệ thống thông tin</i></p>
+    <p>Năm học: <u>2023 - 2024</u></p>
+    <p>
+      <strong>
+        Thẻ b, i không mang ngữ nghĩa đối với web <br />
+        Thẻ strong, em-emphasis mang ngữ nghĩa giống web biết được nội dung quan
+        trọng. <br />
+        Trong đó strong thay thế cho b và em-emphasis thay thế cho i
+      </strong>
+    </p>
+    <hr />
+
+    <h1>Unordered List - Ordered List - List Item</h1>
+    <h4>Hướng dẫn luộc trứng</h4>
+
+    <!-- Thẻ ul - Danh sách không có thứ tự.
+    Sử dụng kết hợp với các thẻ con liệt kê -->
+    <h2>Unordered List</h2>
+    <h4>Nguyên liệu cần chuẩn bị</h4>
+    <ul>
+      <li>Trứng gà</li>
+      <li>Nước lạnh</li>
+      <li>Bếp gas</li>
+    </ul>
+
+    <!-- Thẻ ol - Danh sách có thứ tự -->
+    <h2>Ordered List</h2>
+    <h3>Có 2 thuộc tính Reversed và Type</h3>
+    <h4>Reversed</h4>
+
+    <!-- reversed dùng để đảo ngược thứ tự -->
+    <ol reversed>
+      <li>Thứ tự sẽ đảo ngược chạy từ cuối lên</li>
+      <li>Dòng này sẽ in trước</li>
+      <hr />
+    </ol>
+
+    <!-- type dùng để đánh dấu thứ tự theo 1 kiểu nào đó -->
+    <ol type="A">
+      <li>Thứ tự sẽ được đánh A, B, C</li>
+      <li>Theo bảng chữ cái</li>
+      <br />
+    </ol>
+
+    <!-- Có thể kết hợp dùng reversed và type -->
+    <ol reversed type="I">
+      <li>Thứ tự 1</li>
+      <li>Thứ tự 2</li>
+      <li>Thứ tự 3</li>
+      <li>Thứ tự có thể vừa đảo ngược vừa đánh dấu</li>
+    </ol>
+
+    <h4>Cách luộc trứng</h4>
+    <ol>
+      <li>Sơ chế trứng</li>
+      <li>Bật bếp</li>
+      <li>Đợi trứng chín tầm 15 phút</li>
+      <li>Ăn trứng bỏ vỏ</li>
+    </ol>
+
+    <!-- Thẻ li - Thẻ con trực tiếp của ul, ol -->
+    <hr />
+
+    <h1>Emmet</h1>
+    <!-- Emmet là tổ hợp phím tắt giúp tạo nhanh 1 đoạn -->
+    <p>
+      <b>ul>li</b> tạo 1 thẻ ul có chứa 1 thẻ li <br />
+      <!-- <ul>
+        <li></li>
+      </ul> -->
+
+      <b>ul>li*5</b> tạo 1 thẻ ul có chứa 5 thẻ li <br />
+      <!-- <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul> -->
+
+      <b>ul>li*7{Phần tử thứ $}</b> tạo 1 ul chứa 7 li với nội dung, kí tự '$'
+      sẽ chạy từ 1 - 7
+      <!-- <ul>
+        <li>Phần tử thứ 1</li>
+        <li>Phần tử thứ 2</li>
+        <li>Phần tử thứ 3</li>
+        <li>Phần tử thứ 4</li>
+        <li>Phần tử thứ 5</li>
+        <li>Phần tử thứ 6</li>
+        <li>Phần tử thứ 7</li>
+      </ul> -->
+    </p>
+    <hr />
+
+    <h1>Thẻ ul, ol, li lồng nhau</h1>
+
+    <h2>Bài 1:</h2>
+    <ol type="I">
+      <li><b>Mở bài: giới thiệu nhân vật trong truyện cổ tích</b></li>
+      <li>
+        <b>Thân bài: tả nhân vật trong truyện cổ tích</b>
+        <ol>
+          <li>Tả bao quát nhân vật trong truyện cổ tích</li>
+          <li>
+            Tả chi tiết nhân vật trong truyện cổ tích
+            <ol type="a">
+              <i>
+                <li>Tả ngoại hình của nhân vật trong truyện cổ tích</li>
+                <li>Tả tính tình của nhân vật trong truyện cổ tích</li>
+                <li>Tả hoạt động của nhân vật trong truyện cổ tích</li>
+              </i>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <b>Kết bài: nêu cảm nhận của em về nhân vật trong truyện cổ tích</b>
+      </li>
+    </ol>
+
+    <h2>Bài 2:</h2>
+    <ul>
+      <li>Menu item 1</li>
+      <li>
+        Menu item 2
+        <ol type="I">
+          <li>menu item 2.1</li>
+          <li>
+            menu item 2.2
+            <ol>
+              <li>menu item 2.2.1</li>
+              <li>menu item 2.2.2</li>
+              <li>menu item 2.2.3</li>
+            </ol>
+          </li>
+          <li>menu item 2.3</li>
+          <li>menu item 2.4</li>
+        </ol>
+      </li>
+      <li>Menu item 3</li>
+      <li>Menu item 4</li>
+    </ul>
+  </body>
+</html>
+
+<!-- Thẻ p dùng để xuất 1 đoạn văn -->
